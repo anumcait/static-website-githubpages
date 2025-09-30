@@ -13,12 +13,10 @@ static-website-githubpages
 
 ## Step 1: Create the `index.html` File
 
-1. Create a file named `index.html` in the `static-website` directory.
+1. Create a file named `index.html`, `styles.css` in the `static-website-githubpages` directory.
 2. Add the HTML structure for your website. Here is a simple example:
 
-```html
-See the github file for index.html
-```
+**See the github repo for code index.html, styles.css**
 
 ## Step 2: Push to a New GitHub Repository
 
@@ -61,6 +59,8 @@ git push -u origin main
 4. Under "Source", select the `main` branch and the root folder.
 5. Click "Save".
 
+<img width="1050" height="484" alt="image" src="https://github.com/user-attachments/assets/f8e82156-dd5f-4acb-8230-e4986f01ac5d" />
+
 ## Step 4: Access Live Website
 
 After a few minutes, your website will be available at:
@@ -68,6 +68,7 @@ After a few minutes, your website will be available at:
 ```
 https://anumcait.github.io/static-website-githubpages/
 ```
+<img width="1028" height="878" alt="image" src="https://github.com/user-attachments/assets/85f5bceb-47f4-4756-89b8-92892b2fce0a" />
 
 ## Step 5: Customize Your Site
 
@@ -77,3 +78,4 @@ https://anumcait.github.io/static-website-githubpages/
 ## Conclusion
 
 You have successfully deployed a static website using GitHub Pages! Feel free to explore and customize your site further.
+
