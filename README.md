@@ -5,11 +5,9 @@ This README provides detailed instructions for deploying a static website using 
 ## Project Structure
 
 ```
-static-website
+static-website-githubpages
 ├── index.html
-├── .github
-│   └── workflows
-│       └── github-pages.yml
+├── styles.css
 └── README.md
 ```
 
@@ -19,26 +17,7 @@ static-website
 2. Add the HTML structure for your website. Here is a simple example:
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Static Website</h1>
-    </header>
-    <main>
-        <p>This is a simple static website hosted on GitHub Pages.</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Static Website</p>
-    </footer>
-</body>
-</html>
+See the github file for index.html
 ```
 
 ## Step 2: Push to a New GitHub Repository
@@ -65,7 +44,7 @@ git commit -m "Initial commit"
 5. Link your local repository to the GitHub repository:
 
 ```bash
-git remote add origin https://github.com/USERNAME/REPOSITORY_NAME.git
+git remote add origin https://github.com/anumcait/static-website-githubpages.git
 ```
 
 6. Push your changes to GitHub:
@@ -82,15 +61,13 @@ git push -u origin main
 4. Under "Source", select the `main` branch and the root folder.
 5. Click "Save".
 
-## Step 4: Access Your Live Website
+## Step 4: Access Live Website
 
 After a few minutes, your website will be available at:
 
 ```
-https://USERNAME.github.io/REPOSITORY_NAME/
+https://anumcait.github.io/static-website-githubpages/
 ```
-
-Replace `USERNAME` with your GitHub username and `REPOSITORY_NAME` with the name of your repository.
 
 ## Step 5: Customize Your Site
 
